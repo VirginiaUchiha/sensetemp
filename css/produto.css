@@ -1,0 +1,797 @@
+.cordefundo {
+	background: rgb(12, 10, 58);
+	background: linear-gradient(90deg, rgba(12, 10, 58, 1) 0%, rgba(38, 35, 105, 1) 51%, rgba(8, 7, 62, 1) 100%);
+}
+
+.cordetexto {
+	color: white;
+	font-size: 50px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.alinhamento {
+	text-align: justify;
+}
+
+.cordetexto2 {
+	color: white;
+	font-size: 20px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.alinhamento2 {
+	text-align: end;
+}
+
+
+.ctverttexto {
+	margin-top: 110px;
+}
+
+.trocardecor {
+	background-color: rgb(67, 62, 196);
+	color: rgb(255, 255, 255);
+	border: none;
+}
+
+.trocardecor:hover {
+	background-color: #D30000;
+	color: rgb(255, 255, 255);
+	border: none;
+	transition: 1S;
+	box-shadow: 0px 0px 10px white;
+}
+
+.card-img {
+	filter: brightness(47%);
+}
+
+.font {
+	font-style: italic;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.font2 {
+	font-style: normal;
+}
+
+.footer {
+
+	background-color: #09093e;
+	width: 100%;
+	height: 100%;
+	float: left;
+	font-size: 18px;
+	padding: 50px 10px 50px 10px;
+
+}
+
+.footer .left {
+
+	width: 100%;
+	float: left;
+	border-bottom: 1px #222424 solid;
+	border-right: 0;
+	margin-bottom: 2px;
+	padding-bottom: 2px;
+}
+
+.footer .title-footer {
+
+	color: #ffffff;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-weight: initial;
+	font-size: 26px;
+	width: 100%;
+	float: left;
+	margin-bottom: 15px;
+
+}
+
+.footer .title-footer span {
+
+	color: #a41414;
+	font-family: 'DM Sans', sans-serif;
+	font-weight: bold;
+
+}
+
+/* Footer links */
+
+.footer .links {
+
+	width: 100%;
+	float: left;
+	color: #ffffff;
+	margin-bottom: 20px;
+	padding: 0;
+
+}
+
+.footer .links a {
+
+	display: block;
+	line-height: 33px;
+	text-decoration: none;
+	color: #fff;
+	font-family: 'DM Sans', sans-serif;
+	font-size: 16px;
+	transition: 0.3s;
+
+
+}
+
+.footer .links a:hover {
+	color: #a41414;
+}
+
+.footer .Copyright {
+
+	font-family: 'DM Sans', sans-serif;
+	color: #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin-bottom: 10px;
+
+}
+
+/*Rede Sociais*/
+
+.footer .footer-icons {
+
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.footer .footer-icons a {
+
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color: #33383b;
+	border-radius: 50px;
+	font-family: 'DM Sans', sans-serif;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+	margin-bottom: 5px;
+	transition: 0.3s;
+
+}
+
+.footer .footer-icons a:hover {
+	background-color: #a41414;
+}
+
+/*Right*/
+
+.footer .right {
+	width: 100%;
+	float: left;
+}
+
+.footer .right p {
+
+	font-family: 'DM Sans', sans-serif;
+	font-weight: initial;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 30px;
+	color: #ffffff;
+
+}
+
+/*formulario*/
+
+.footer form {
+	width: 100%;
+	float: left;
+}
+
+.footer form input,
+.footer form textarea {
+
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color: #1f2022;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+	resize: none;
+	outline: none;
+	font: inherit;
+	font-size: 14px;
+	font-family: 'DM Sans', sans-serif;
+	font-weight: normal;
+	color: #d1d2d2;
+	width: 100%;
+	padding: 18px;
+
+}
+
+.footer ::-webkit-input-placeholder {
+	color: #5c666b;
+}
+
+.footer ::-moz-placeholder {
+	color: #5c666b;
+	opacity: 1;
+}
+
+.footer :-ms-input-placeholder {
+	color: #5c666b;
+}
+
+
+.footer form input {
+
+	width: 100%;
+	height: 5px;
+	float: left;
+	margin-bottom: 15px;
+
+}
+
+.footer form textarea {
+	height: 60px;
+	margin-bottom: 20px;
+}
+
+.footer form .btn {
+
+	border-radius: 3px;
+	background-color: #d1d1d1;
+	filter: brightness(30%);
+	color: #ffffff;
+	border: 0;
+	padding: 13px 32px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-weight: bolder;
+	float: left;
+	cursor: pointer;
+	transition: 0.3s;
+
+
+}
+
+.footer form .btn:hover {
+	background-color: #a41414;
+}
+
+/*Responsive*/
+@media (min-width: 120px) {
+
+	.footer {
+		padding: 50px 50px 50px 70px;
+	}
+
+	.footer .Copyright {
+		font-size: 16px;
+	}
+
+	.footer form input,
+	.footer form textarea {
+		width: 100%;
+		float: left;
+	}
+
+	.footer form button {
+		padding: 10px 35px;
+	}
+
+}
+
+@media (min-width: 76px) {
+
+	.footer .left {
+		width: 50%;
+		border-bottom: 0;
+	}
+
+	.footer .right {
+		width: 50%;
+		padding-left: 4%;
+		border-left: 1px #2f2f2f solid;
+	}
+
+	.footer form {
+		margin-top: 30px;
+	}
+
+	.footer form {
+		display: block;
+	}
+
+	.footer form button {
+		float: none;
+	}
+
+}
+
+.margemdecima {
+	margin-top: 200px;
+
+}
+
+.cordofooter {
+	background-color: #09093e;
+	color: white;
+
+}
+
+.cordetexto3 {
+	filter: brightness(70%);
+
+}
+
+.corcinza {
+	background-color: rgb(220, 220, 220);
+}
+
+.container-fluid.main {
+	position: relative;
+	/* To make the navbar positions relative to this container */
+	padding: 0;
+}
+
+.navbar-default {
+	background-image: none;
+	background-color: transparent;
+	/* Make the menu become transparent */
+	border-radius: 0px;
+	border: 0;
+	box-shadow: none;
+	padding: 10px;
+	position: absolute;
+	/* Make the menu out of the document flow so it can placed anywhere without disturbing other widgets */
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 10;
+	/* If you delete this line, your menu link won't be clicked because it is behind the background. Applying this code bring the menu in front of the background */
+}
+
+.navbar-default .navbar-brand {
+	font-family: Verdana;
+	color: #ffffff;
+	font-size: 20px;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+	color: #ffffff;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #ffffff;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+	color: #ffffff;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover {
+	background-color: transparent;
+}
+
+.navbar-default .navbar-toggle:focus {
+	background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #ffffff;
+}
+
+.carousel .background {
+	background-position: center center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 550px;
+}
+
+@media (max-width:991px) {
+	.card23 {
+		size: 20px;
+	}
+}
+
+
+/* CSS Hack to trigger GPU for smooth transition */
+@media all and (transform-3d),
+(-webkit-transform-3d) {}
+
+/* CSS Hack to trigger GPU for smooth transition */
+
+.covertext {
+	position: absolute;
+	/* To make the div to be place anywhere. It is out of the document flow */
+	top: 200px;
+	/* The distance between the div with the top of document */
+	left: 0px;
+	/* Make the div full width */
+	right: 0px;
+	/* Make the div full width */
+}
+
+.title {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: 600;
+	font-size: 60px;
+	color: #ffffff;
+	text-align: center;
+}
+
+.title2 {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: 600;
+	font-size: 60px;
+	color: #a41414;
+	text-align: center;
+
+	margin-left: 2px;
+	/* Isso adiciona um espaço de 5 pixels entre "SENSE" e "TEMP". Ajuste conforme necessário. */
+}
+
+
+.subtitle {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	filter: brightness(75%);
+	font-size: 23px;
+	color: #ffffff;
+	text-align: center;
+}
+
+.explore {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.explore .btn-lg,
+.explore .btn-lg:hover {
+	border-radius: 30px;
+	padding: 15px 25px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 22px;
+	background-image: none;
+	background-color: #a41414;
+	border-color: #a41414;
+	color: #ffffff;
+
+}
+
+.btn,
+.btn:hover {
+	border-radius: 0px;
+	background-image: none;
+	background-color: #a41414;
+	border-color: #a41414;
+	color: #ffffff;
+	margin-bottom: 20px;
+	box-shadow: none;
+	outline: none;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+	color: #ffffff;
+	outline: none;
+}
+
+
+
+.navbar {
+	position: fixed;
+	/* Torna a barra de navegação fixa */
+	width: 100%;
+	/* Define a largura para ocupar toda a largura da tela */
+	top: 0;
+	/* Fixa a barra de navegação no topo */
+	background-color: rgba(9, 9, 62, 0.8);
+	/* Cor de fundo do menu */
+	border: 1px solid rgba(9, 9, 62, 0.6);
+	/* Uma borda ao redor do menu (opcional) */
+	padding: 10px 0;
+	/* Espaçamento interno superior e inferior */
+	z-index: 1000;
+	/* Define a ordem de empilhamento (z-index) para aparecer acima de outros elementos */
+	border-radius: 5px;
+	/* Adicione bordas arredondadas */
+}
+
+/* Adicione estilos de CSS para ajustar a aparência do menu aqui, se necessário */
+
+
+/* CSS personalizado para alterar a fonte dos itens do menu */
+
+
+
+
+@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
+
+/*
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	vertical-align: baseline;
+}
+
+
+body {
+	background-color: #09093e;
+
+	background-size: auto,
+		cover;
+	background-attachment: fixed,
+		fixed;
+	background-position: center,
+		center;
+}
+
+/* Type */
+
+body,
+input,
+select,
+textarea {
+	color: #ffffff;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-size: 16.5pt;
+
+}
+
+
+@media screen and (max-width: 1280px) {
+
+	body,
+	input,
+	select,
+	textarea {
+		font-size: 12pt;
+	}
+
+}
+
+a {
+	color: #ffffff;
+
+}
+
+
+a.special:not(.button) {
+
+	font-family: Raleway, Helvetica, sans-serif;
+
+}
+
+
+
+a.special:not(.button):before {
+	-moz-transition: background-color 0.2s ease-in-out;
+	-webkit-transition: background-color 0.2s ease-in-out;
+	-ms-transition: background-color 0.2s ease-in-out;
+	transition: background-color 0.2s ease-in-out;
+	border-radius: 100%;
+	border: solid 2px rgba(255, 255, 255, 0.125);
+	content: '\f105';
+	display: inline-block;
+	font-size: 1.25em;
+	height: 2em;
+	line-height: 1.75em;
+	margin-right: 0.85em;
+	text-align: center;
+	text-indent: 0.15em;
+	vertical-align: middle;
+	width: 2em;
+}
+
+
+
+
+
+
+h1.major,
+h2.major,
+h3.major,
+h4.major,
+h5.major,
+h6.major {
+	padding-bottom: 1em;
+	border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+}
+
+h2 {
+	font-size: 1.2em;
+}
+
+
+.wrapper {
+	background-color: #2e3141;
+	margin: 6.5em 0;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/* Centraliza verticalmente */
+	align-items: center;
+	/* Centraliza horizontalmente */
+}
+
+
+
+.wrapper:before,
+.wrapper:after {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	content: '';
+	display: block;
+	height: 6.5em;
+	position: absolute;
+	width: 100%;
+}
+
+.wrapper:before {
+	left: 0;
+	top: -6.5em;
+}
+
+.wrapper:after {
+	-moz-transform: scaleY(-1);
+	-webkit-transform: scaleY(-1);
+	-ms-transform: scaleY(-1);
+	transform: scaleY(-1);
+	bottom: -6.5em;
+	left: 0;
+}
+
+.wrapper.alt:before {
+	-moz-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	-ms-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+
+.wrapper.alt:after {
+	-moz-transform: scaleY(-1) scaleX(-1);
+	-webkit-transform: scaleY(-1) scaleX(-1);
+	-ms-transform: scaleY(-1) scaleX(-1);
+	transform: scaleY(-1) scaleX(-1);
+}
+
+.wrapper .inner {
+	text-align: center;
+	/* Centraliza o texto horizontalmente */
+	max-width: 55em;
+}
+
+
+
+
+
+.wrapper.spotlight {
+	background-color: #4c5c96;
+}
+
+.wrapper.spotlight:before,
+.wrapper.spotlight:after {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%234c5c96%3B' /%3E%3C/svg%3E");
+}
+
+.wrapper.spotlight:before {
+	box-shadow: inset 0 -1px 0 0 #4c5c96, 0 1px 0 0 #4c5c96;
+}
+
+.wrapper.spotlight:after {
+	box-shadow: inset 0 -300px 0 0 #4c5c96, 0 px 0 0 #4c5c96;
+}
+
+.wrapper.spotlight .inner {
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: ms-flex;
+	display: flex;
+	-moz-align-items: center;
+	-webkit-align-items: center;
+	-ms-align-items: center;
+	align-items: center;
+	-moz-flex-direction: row;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+}
+
+.wrapper.spotlight .image {
+	border-radius: 100%;
+	margin: 0 3em 2em 0;
+	width: 22em;
+	overflow: hidden;
+
+}
+
+.wrapper.spotlight .image img {
+	border-radius: 100%;
+	width: 100%;
+}
+
+.wrapper.spotlight .content {
+	width: 100%;
+
+}
+
+
+
+.wrapper.spotlight.style2 {
+	background-color: #45558d;
+}
+
+.wrapper.spotlight.style2:before,
+.wrapper.spotlight.style2:after {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%2345558d%3B' /%3E%3C/svg%3E");
+}
+
+.wrapper.spotlight.style2:before {
+	box-shadow: inset 0 -1px 0 0 #45558d, 0 1px 0 0 #45558d;
+}
+
+.wrapper.spotlight.style2:after {
+	box-shadow: inset 0 -px 0 0 #45558d, 0 1px 0 0 #45558d;
+}
+
+.wrapper.spotlight.style3 {
+	background-color: #3f4e85;
+}
+
+.wrapper.spotlight.style3:before,
+.wrapper.spotlight.style3:after {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%233f4e85%3B' /%3E%3C/svg%3E");
+}
+
+.wrapper.spotlight.style3:before {
+	box-shadow: inset 0 -1px 0 0 #3f4e85, 0 1px 0 0 #3f4e85;
+}
+
+.wrapper.spotlight.style3:after {
+	box-shadow: inset 0 -1px 0 0 #3f4e85, 0 1px 0 0 #3f4e85;
+}
+
+.meuestilo {
+	list-style: none;
+}
+
+.lista {
+	padding: 10px;
+}
+
+.lista a {
+	text-decoration: none;
+}
+
+.lista a:hover {
+	color: red;
+}
+
+.alinhamentodotexto{
+	text-align: left;
+}
